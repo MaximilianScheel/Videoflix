@@ -12,7 +12,6 @@ const GET_USER_INFO = `${BACKEND_DOMAIN}/api/v1/auth/users/me/`
 
 
 // Register user
-
 const register = async (userData) => {
     const config = {
         headers: {
